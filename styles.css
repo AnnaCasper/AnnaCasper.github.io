@@ -1,0 +1,19 @@
+body {
+    font-family: 'Nunito', sans-serif;
+    min-height: 100vh;
+    position: relative;
+    text-align: center;
+}
+
+body > div {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    right: 0;
+}
+
+img {
+    padding: 20px;
+    height: 120px;
+}
